@@ -69,6 +69,7 @@ class Comment(db.Model):
 # db.create_all()
 
 
+
 def admin_only(f):
     @wraps(f)
     def decorated_function(*args, **kwargs):
