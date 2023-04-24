@@ -18,7 +18,7 @@ gravatar = Gravatar(app, size=100, rating='g', default='retro', force_default=Fa
                     base_url=None)
 
 ##CONNECT TO DB
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://blog_0c02_user:Oglux1GT5L66ld2xYhK0n3SmrGuYDL6c@dpg-ch2k1dlgk4qarqhdaer0-a/blog_0c02'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://blog_0c02_user:Oglux1GT5L66ld2xYhK0n3SmrGuYDL6c@dpg-ch2k1dlgk4qarqhdaer0-a.oregon-postgres.render.com/blog_0c02'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 login_manager = LoginManager()
